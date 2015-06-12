@@ -1,0 +1,166 @@
+input.error { 
+    background-color: #FFDDDD;
+    border: 1px dashed #CC0000 
+}
+textarea.error { 
+    border: 1px solid red;color: #0F0F0F; 
+}
+form.cmxform .gray * { 
+    color: gray;
+}
+label.error{
+    float: left;
+    color: #FF0000;
+    font-size: 11px;
+    width: 100%;
+}
+.message{
+    background: url("../images/message.png") no-repeat scroll left center #FAE06B;
+    border: 1px dotted #949292;
+    color: #4F4E4A;
+    font-size: 130%;
+    line-height: 25px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 30px;
+}
+.error_{
+    border: 1px solid #FF0000;
+    height: 25px;
+    background: #FABD05 url('../images/error.png') no-repeat center left;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #656565;
+    line-height: 18px;
+    margin: 5px;
+}
+.notes{
+    border: 1px solid #FF0000;
+    height: 25px;
+    background: #EBF707 url('../images/notes.png') no-repeat center left;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #FA5F05;
+    line-height: 18px;
+    margin: 5px;
+}
+.pages{
+    text-align: center;
+    padding: 10px;
+}
+.pages .pagebar-mainbody a,.pagelink-current{
+    display:inline-block;
+    border:1px solid #E6E7E1;
+    height:17px;
+    line-height:17px;
+    margin-left:1px;
+    min-width:12px;
+    overflow:visible;
+    padding:0 2px;
+    text-align:center;
+    vertical-align:middle;
+    white-space:nowrap;
+    width:auto !important;
+    color:#218BBC;
+}
+.pages .pagebar-mainbody a img{
+    margin-top:6px;
+}
+.pagelink-current,.pages .pagebar-mainbody a:hover  {
+    background:#218BBC none repeat scroll 0 0;
+    border:1px solid #218BBC;
+    color:#FFFFFF;
+}
+/* ---------->>> jtip <<<---------------------------------------------------------------*/
+
+#JT_arrow_left{
+    background-image: url(../images/arrow_left.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index:101;
+    left:-12px;
+    height:23px;
+    width:10px;
+    top:-3px;
+}
+
+#JT_arrow_right{
+    background-image: url(../images/arrow_right.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: absolute;
+    z-index:101;
+    height:23px;
+    width:11px;
+    top:-2px;
+}
+
+#JT {
+    position: absolute;
+    z-index:100;
+    border: 2px solid #CCCCCC;
+    background-color: #fff;
+}
+
+#JT_copy{
+    padding:10px 10px 10px 10px;
+    color:#333333;
+}
+
+.JT_loader{
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:12px;
+}
+
+#JT_close_left{
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-weight:bold;
+}
+
+#JT_close_right{
+    background-color: #CCCCCC;
+    text-align: left;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    font-weight:bold;
+}
+
+#JT_copy p{
+margin:3px 0;
+}
+
+#JT_copy img{
+    padding: 1px;
+    border: 1px solid #CCCCCC;
+    max-width: 200px;
+}
+
+.jTip{
+cursor:help;
+}
+
+#ajax-load {
+    background: url("../images/dangtai.png") no-repeat scroll center bottom transparent;
+    display: none;
+    height: 25px;
+    left: 45%;
+    padding: 6px 6px 6px 26px;
+    position: fixed;
+    right: 10px;
+    top: 0;
+    width: 155px;
+    z-index: 300;
+}
+#ajax-load .loading {
+    background: url("../images/loading.gif") no-repeat scroll 0 0 transparent;
+    color: #FF0000;
+    padding-left: 20px;
+}

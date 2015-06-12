@@ -1,0 +1,185 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    padding: 0px;
+    margin: 0 auto;
+}
+body, textarea {
+    line-height:1.4em;
+}
+body, td, textarea, input, select {
+    font:12px "Tahoma",sans-serif;
+    font-size:13px;
+}
+a{
+    color:#222222;
+    text-decoration: none;
+}
+a:hover{
+    color:#F7933B;
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+.full{
+    width: 98%;
+}
+.w200{
+    width: 200px;
+}
+.w250{
+    width: 250px;
+}
+.w300{
+    width: 300px;
+}
+.w350{
+    width: 350px;
+}
+.w400{
+    width: 400px;
+}
+.w500{
+    width: 500px;
+}
+.field{
+    -moz-border-radius:5px 5px 5px 5px;
+    background:none repeat scroll 0 0 transparent;
+    border:1px solid #C0C0C0;
+    color:black;
+    font-size:12px;
+    height:15px;
+    margin:0 0 12px;
+    padding:2px 0 2px 5px;
+}
+select{
+    -moz-border-radius:5px 5px 5px 5px;
+    background:none repeat scroll 0 0 transparent;
+    border:1px solid #C0C0C0;
+    color:black;
+    font-size:12px;
+    height:23px;
+    margin:0 0 12px;
+    padding:2px 5px 2px 5px;
+}
+select option{
+    height: 20px;
+    padding-left: 10px;
+}
+.field:focus {
+    -moz-box-shadow:0 2px 1px #E1E1E1;
+    border:1px solid #B5B5B5;
+}
+ul,dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.wrapper .header{
+    height: 27px;
+    background-color : #7A7878;
+    color: #FFFFFF;
+}
+.header .title{
+    width: 600px;
+    float: left;
+}
+.header .close{
+    width: 40px;
+    float: right;
+}
+.media-upload-header{
+    background-color:#F9F9F9;
+    border-bottom-color:#DFDFDF;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    font-weight:bold;
+    margin:0;
+    padding:0 5px;
+    position:relative;    
+}
+ul#menu{
+    bottom:-1px;
+    float:none;
+    font-weight:normal;
+    left:0;
+    margin:0 5px;
+    overflow:hidden;
+}
+#menu li{
+    display:inline;
+    line-height:200%;
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    white-space:nowrap;
+}
+#menu a{
+    background-color:#F9F9F9;
+    border-color:#F9F9F9 #F9F9F9 #DFDFDF;
+    border-top-style:solid;
+    border-top-width:1px;
+    display:block;
+    float:left;
+    line-height:28px;
+    padding:0 7px;  
+    font-size: 14px;   
+}
+#menu a.current {
+    background-color:#FFFFFF;
+    border-color:#DFDFDF #DFDFDF #FFFFFF;
+    color:#D54E21;-moz-border-radius:4px 4px 0 0;
+    border-style:solid;
+    border-width:1px;
+    font-weight:normal;
+    padding-left:6px;
+    padding-right:6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form_upload{
+    background-color : #F9F9F9;
+    
+}
+table.site{
+     width: 100%;
+     border: 1px solid gray;
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+table.site thead{
+     background:none repeat scroll 0 0 bisque;  
+     border-bottom: 1px solid #FFF;
+     text-align: center;
+}
+table.site td.click, table.site th.click{
+    background-color: #E1F5FA;
+}
+
+table.site td, table.site th {
+    border: 1px solid #e5e5e5;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+table.site td.hover, table.site tr.hover{
+    background-color: #E1F5FA;
+}
+table.site th.hover, table.site tfoot td.hover{
+    background-color: ivory;
+}
+table.site td.hovercell, table.site th.hovercell{ 
+    background-color: #FAF6CA;}
+table.site td.hoverrow, table.site th.hoverrow{
+    background-color: #6df;
+} 
+table.pop td{
+    vertical-align: top;
+}
+

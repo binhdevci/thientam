@@ -1,0 +1,256 @@
+/* 
+    Document   : style
+    Created on : Dec 28, 2010, 10:52:20 PM
+    Author     : Tran Viet Quoc
+    Description:
+*/
+.combo{
+    display:inline-block;
+    white-space:nowrap;
+    font-size:12px;
+    margin:0px !important;
+    padding:0px !important;
+    /*border:1px solid #A4BED4;*/
+    border:1px solid #00cbcb;
+}
+.combo span{
+    overflow: hidden;
+}
+.combo-text{
+    font-size:12px;
+    border:0px;
+    line-height:20px;
+    height:18px;
+    margin:0px !important;
+    padding:0px !important;
+}
+.combo-mask {
+    background: none repeat scroll 0 0 #EEEEFF;
+    height: 100%;
+    width: 100%;
+    opacity:0.1;
+    filter:alpha(opacity=50);
+}
+.combo-arrow {
+    border-left: 1px solid #00cbcb;
+    background: url("img/combo_arrow.gif") no-repeat scroll 3px 4px #E0ECF9;
+    display: inline-block;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 18px;
+    margin:0px !important;
+    padding:0px !important;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+.combo-disabled{
+    opacity:0.6  !important;
+    filter:alpha(opacity=60) !important;
+}
+.combo-arrow:hover{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+.combo-arrow-hover{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+.item_0{
+    font-weight: bold;
+}
+.item_1{
+    padding-left: 30px !important;
+}
+.item_2{
+    padding-left: 60px !important;
+    font-size: 11px !important;
+}
+.item_3{
+    padding-left: 90px !important;
+    font-size: 10px !important;
+}
+.item_4{
+    padding-left: 120px !important;
+    font-size: 10px !important;
+}
+.item_5{
+    padding-left: 150px !important;
+    font-size: 10px !important;
+}
+.item_6{
+    padding-left: 180px !important;
+    font-size: 10px !important;
+}
+.item_7{
+    padding-left: 210px !important;
+    font-size: 10px !important;
+}
+.item_8{
+    padding-left: 230px !important;
+    font-size: 10px !important;
+}
+.item_9{
+    padding-left: 230px !important;
+    font-size: 10px !important;
+}
+.item_10{
+    padding-left: 230px !important;
+    font-size: 10px !important;
+}
+.item_11{
+    padding-left: 230px !important;
+    font-size: 10px !important;
+}
+.item_12{
+    padding-left: 230px !important;
+    font-size: 10px !important;
+}
+.panel-border {
+    font-size: 12px;
+    display: none;
+    /*border-left: 1px solid #99BBE8;
+    border-right: 1px solid #99BBE8;
+    border-bottom: 1px solid #99BBE8;*/
+    /*border: 1px solid #99BBE8;*/
+    border: 1px solid #00cbcb;
+    border-top: none;
+    overflow: auto;
+    background-color: #fff;
+    height: expression( this.scrollHeight > 180 ? "180px" : "auto" ); /* sets max-height for IE */
+    max-height: 180px;
+
+    margin:0px !important;
+    padding:0px !important;
+    position: absolute;
+    z-index: 30;
+
+}
+.panel-border-tree {
+    font-size: 12px;
+    display: none;
+    /*border-left: 1px solid #99BBE8;
+    border-right: 1px solid #99BBE8;
+    border-bottom: 1px solid #99BBE8;*/
+    /*border: 1px solid #99BBE8;*/
+    border: 1px solid #00cbcb !important;
+    /*border-top: none;*/
+    overflow: auto;
+    background-color: #fff;
+    max-height: 10000px !important;
+    margin:0px !important;
+    padding:0px !important;
+    position: static !important;
+    z-index: 30;
+
+}
+.panel {
+    font-size: 12px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0px !important;
+    padding: 0px !important;
+    /*min-width: 100%;*/
+    /*position: absolute;*/
+    z-index: 30;
+}
+.panel-body-noheader {
+    border-top-width: 1px;
+}
+.panel-body {
+    border-color: #99BBE8;
+    border-right: 1px solid #99BBE8;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    overflow: auto;
+}
+.combo-panel {
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: auto;
+}
+.combobox-item {
+    cursor: default;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    height: 18px;
+    white-space: nowrap;
+    min-width: 100%;
+    text-align: left;
+}
+.combobox-item:hover{
+        background: #C1DBFC !important;
+}
+
+.combobox-tree-item {
+    cursor: default;
+    font-size: 12px;
+    /*padding: 0px 0px 0px 0px;*/
+    height: 18px;
+    white-space: nowrap;
+    /*min-width: 100%;*/
+    text-align: left;
+    padding-right: 0px;
+}
+.combobox-tree-item:hover {
+    background: #C1DBFC;
+}
+.panel p{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.new-item{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.panel-border .panel > div, .panel-border-tree .panel > div{
+    cursor: default;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    height: 18px;
+    white-space: nowrap;
+    min-width: 100%;
+    text-align: left;
+}
+.combobox-item-hover{
+	/*background: #f5f5f5;*/
+        background: #C1DBFC !important;
+}
+.combobox-item-selected{
+	background: #F1C6A1;
+        /*background: #C1DBFC;*/
+}
+
+.cmb-expand{
+    background-image: url(img/plus.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*margin: 0px;*/
+    text-decoration: none !important;
+}
+
+.cmb-collapse{
+    background-image: url(img/minus.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*margin: 0px;*/
+    text-decoration: none !important;
+}
+
+.combobox-tree-item-text{
+    /*text-decoration: underline;*/
+    cursor: pointer;
+}
+
+.combobox-tree-item-text a:hover{
+    text-decoration: underline;
+}
+.loading{
+background: url(img/loading.gif) no-repeat right;
+}
+.combo-loading{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}

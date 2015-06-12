@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /thientam/
+RewriteCond $1 !^(index\.php|system|site|webadmin|templates|uploads|captcha|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /thientam/index.php?/$1 [QSA,L]

@@ -1,0 +1,90 @@
+<?php
+$lang['home'] = "Home";
+$lang['show'] = "Show";
+$lang['games'] = "Games";
+$lang['artists'] = "Artists";
+$lang['spotlight'] = "Spotlight";
+$lang['about'] = "About";
+$lang['setup'] = "Music";
+$lang['album'] = "Album";
+$lang['timeline'] = "Timeline";
+$lang['group_song'] = "Group song";
+$lang['group_artists'] = "Group artists";
+$lang['author']		= "Author";
+$lang['cate_song'] = "Category song";
+$lang['cate_show'] = "Category show";
+$lang['cate_news'] = "Category news";
+$lang['chart'] = "Chart";
+$lang['events'] = "Events";
+$lang['song'] = "Song";
+$lang['zone'] = "Zone";
+$lang['country'] = "Country";
+$lang['city'] = "City";
+$lang['permission'] = "Pemission";
+$lang['login_code'] = "Login code";
+$lang['user'] = "User";
+$lang['delete'] = "Delete";
+$lang['add_news'] = "Add";
+$lang['update'] = "Update";
+$lang['display'] = "Display";
+$lang['record'] = "Record";
+$lang['total'] = "Total";
+$lang['functions'] = "Functions";
+$lang['code']				= "Code";
+$lang['order']				= "Order";
+$lang['active']				= "Activated";
+$lang['deactive']				= "Deactivated";
+$lang['active_deactive']		= "Status";
+$lang['recycle']				= "Recycle";
+$lang['title']				= "Title";
+$lang['summary']                    = "Summary";
+$lang['seokeyword']                    = "SEO keywords";
+$lang['description'] ='Description';
+$lang['category'] ='Category';
+$lang['image'] ='Image';
+$lang['library'] ='Library';
+$lang['video'] ='Song';
+$lang['video_short'] ='Demo (10s)';
+$lang['add_file'] ='Add File';
+$lang['choose_file_upload'] ='Choose File Upload ';
+$lang['upload_file'] ='Upload File';
+$lang['choose_file'] ='Choose File';
+$lang['votes'] ='Votes';
+$lang['male'] ='Male';
+$lang['female'] ='Female';
+$lang['full_name'] ='Full Name';
+$lang['nick_name'] ='Nick Name';
+$lang['yahoo'] ='Yahoo';
+$lang['skype'] ='Skype';
+$lang['msn'] ='Msn';
+$lang['website'] ='Website';
+$lang['mailorther'] ='Get mail from orther friends';
+$lang['mailadmin'] ='Get mail from admin';
+$lang['dtcreate'] ='Date create';
+$lang['lastlogin'] ='Last login';
+$lang['day'] ='Day';
+$lang['month'] ='Month';
+$lang['year'] ='Year';
+$lang['change_avatar'] ='Change avatar';
+
+
+$lang['gmt'] ='GMT';
+$lang['create_develop'] ='Being creation develop';
+$lang['key_word'] ='Key Word';
+$lang['date_start'] ='Date start';
+$lang['date_end'] ='Date end';
+$lang['time_start'] ='Time start';
+$lang['time_end'] ='Time end';
+$lang['add'] ='Add';
+$lang['name_alias'] = 'Name alias';
+
+
+
+$lang['user_name'] 			= "Tên đăng nhập";
+$lang['password']				= "Mật khẩu";
+$lang['login']				= "Đăng nhập";
+$lang['remember']				= "Remember login";
+$lang['present_slide']				= "Present slide";
+$lang['order']				= "order";
+
+

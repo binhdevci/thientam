@@ -1,0 +1,5 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|templates|captcha|files|excel)
+RewriteRule ^(.*)$ index.php?/$1 [L]
